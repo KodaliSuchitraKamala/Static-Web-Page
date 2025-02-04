@@ -1,0 +1,120 @@
+/* resetting the css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url();
+    height: 10%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    font-family: 'Aleo',serif;
+    font-weight: bold;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.mid{
+    width: 35%;
+    margin: 12px auto;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: rgb(22,49,40);
+    text-decoration: none;
+    margin: 10px 35px;
+}
+
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.left img{
+    float: left;
+    width: 30px;
+    height: 20px;
+}
+
+.left h3{
+    float: left;
+}
+
+.btn{
+    background-color: rgb(170,170,226);
+    margin: 3px 8px;
+    padding: 1px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(92,92,156);
+}
+
+.container{
+    border: 2px solid rgb(255,252,252);
+    width: 35%;
+    height: 300px;
+    float: right;
+    margin: 96px 150px;
+}
+
+.form-group input{
+    display: block;
+    width: 300px;
+    margin: 8px auto;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.container h3{
+    text-align: center;
+    margin: 12px auto;
+}
+
+.container button{
+    display: block;
+    margin: 20px auto;
+    width: 320px;
+    font-size: 20px;
+}
+
+.container2{
+    border: 2px solid rgb(251. 248, 248);
+    width: 40%;
+    margin: 133px 5px;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgb(13, 44, 34);
+    font-family: 'Aleo', serif;
+    background: white;
+    border-radius: 10px;
+}
+
+.container2 h4{
+    margin: 20px 0px;
+    color: red;
+}
